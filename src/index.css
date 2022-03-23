@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* postCSS autoprefixer가 자동적으로 모든 prefix를 붙여준다.  */
+:fullscreen {
+  background-color: blue;
+}
